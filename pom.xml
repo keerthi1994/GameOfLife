@@ -78,15 +78,16 @@
             <!-- CODE COVERAGE -->
             <plugin>
                 <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-plugin</artifactId>
-                <version>0.7.2.201</version>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.2.201409121644</version>
                 <executions>
-				<id>jacoco</id>
+                    <execution>
+                        <id>jacoco-initialize</id>
                         <phase>process-resources</phase>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
-                    
+                    </execution>
                     <execution>
                         <id>jacoco-site</id>
                         <phase>post-integration-test</phase>
