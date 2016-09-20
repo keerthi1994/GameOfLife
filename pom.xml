@@ -437,14 +437,14 @@
 	
 	<distributionManagement>
         <snapshotRepository>
-            <id>Game_Of_Life</id>
-      <name>GameOflife</name>
-      <url>http://localhost:8081/nexus/content/repositories/Game_Of_Life/</url>
+            <id>GOL_SNAPSHOT</id>
+      <name>GOL_SNAPSHOT</name>
+      <url>http://localhost:8081/nexus/content/repositories/GOL_SNAPSHOT/</url>
          </snapshotRepository>
    <repository>
-        <id>gameoflife</id>
-        <name>gameoflife</name>
-        <url>http://localhost:8081/nexus/content/repositories/gameoflife/</url>
+        <id>GOL_RELEASE</id>
+        <name>GOL_RELEASE</name>
+        <url>http://localhost:8081/nexus/content/repositories/GOL_RELEASE/</url>
     </repository> 
   </distributionManagement>
 </project>
